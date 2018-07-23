@@ -1,0 +1,108 @@
+body {
+  background: rgb(248,248,248);
+}
+
+.container {
+  width: 100%;
+  max-width: 1320px;
+}
+
+.navbar {
+  text-align: center;
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+
+#navbar-top {
+  background: red;
+  color: white;
+  height: 100px;
+}
+
+#navbar-top h1 {
+  display: inline-block;
+  font-size: 70px;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+
+#navbar-bottom {
+  background: white;
+  border-bottom: 2px solid rgba(225,225,225,0.5);
+}
+
+.navbar-action {
+  position: relative;
+  top: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  margin: 5px;
+}
+
+#navbar-date {
+  color: rgba(255,255,255,0.7);
+}
+
+#navbar-subscribe {
+  padding: 5px 10px;
+  background: white;
+  color: red;
+  margin: 0 3px;
+}
+
+#navbar-bottom li a {
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  border-right: 1px solid rgba(0,0,0,0.1);
+  padding: 5px 15px;
+  margin: 10px auto;
+}
+
+.main-content {
+  background: white;
+  padding-bottom: 30px;
+}
+
+.main-content img {
+  width: 100%;
+  height: auto;
+}
+
+.main-content .title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+article {
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  min-height: 100px;
+  margin: 5px 0;
+  width: 100%;
+}
+
+.main-content .small-article {
+  height: 140px;
+}
+
+.main-content .small-article .title {
+  font-size: 16px;
+}
+
+.main-content .small-article img {
+  width: 30%;
+  float: left;
+  margin-right: 10px;
+}
+
+.main-content .smaller-article img {
+  width: 35%;
+  float: left;
+  margin-right: 3px;
+}
+
+.main-content .smaller-article .title {
+  font-size: 16px;
+}
